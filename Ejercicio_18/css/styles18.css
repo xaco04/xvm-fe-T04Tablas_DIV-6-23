@@ -1,0 +1,34 @@
+div.caja1 {
+    background: url(../images/f01.png) left bottom repeat-x,
+    url(../images/f02.png) left bottom no-repeat,
+    url(../images/f03.png) left top repeat-x;
+    background-color: #a4d3ff;
+    height: 100px; /* Ajusta la altura según tus necesidades */
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    border: 3px solid blue;
+    padding: 5px;
+
+}
+
+div.caja2 {
+    background: url(../images/f01.png) left bottom repeat-x,
+    url(../images/f02.png) left bottom no-repeat,
+    url(../images/f03.png) left top repeat-x;
+    background-color: #a4d3ff;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    width: 400px; /* Ajusta el ancho según tus necesidades */
+    border: 5px solid red;
+    margin: 20px;
+    padding: 20px;
+}
+
+div.caja3 {
+    background: url(../images/f01.png) left bottom repeat-x,
+    url(../images/f02.png) left bottom no-repeat,
+    url(../images/f03.png) left top repeat-x;
+    background-color: #a4d3ff;
+    height: 100px; /* Ajusta la altura según tus necesidades */
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    border: 3px solid blue;
+    padding: 5px;
+}

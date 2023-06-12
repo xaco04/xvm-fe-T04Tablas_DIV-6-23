@@ -1,0 +1,35 @@
+table {
+    margin: 0px;
+    border-collapse: collapse;
+}
+section {
+    border: 1px solid #08ADD5;
+    width: fit-content;
+}
+div {
+    width: fit-content; /* per ajustar el text al contingut */
+    margin: 0px;
+    border: 4px outset ;
+    box-sizing: border-box;
+
+}
+th {
+    background-color: #083C10;
+    color: #C9FFD1;
+    border: 2px outset #08ADD5;
+    padding: 4px;
+
+}
+td {
+    border: 2px outset #08ADD5;
+    padding: 1px;
+    text-align: left; /* Alineación del texto a la izquierda */
+    font-weight: bold; /* Para que sea en negrita */
+    font-size: small;
+}
+tr:nth-child(even) { /*Las filas pares tienen este color */
+    background-color: #C9FFD1;
+}
+tr:nth-child(odd) { /*Las filas impares tienen este color */
+    background-color: #73B07D;
+}

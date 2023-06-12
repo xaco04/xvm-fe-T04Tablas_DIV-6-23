@@ -1,0 +1,31 @@
+table {
+    margin: 0px;
+    border-collapse: collapse;
+    border: 5px ridge #FBFFCC;
+    font-family: Arial;
+
+}
+
+th {
+    background-color: #64A672;
+    color: #750000;
+    padding: 2px;
+    font-weight: lighter;
+}
+
+.category {
+    background-color: #FFD6A1 !important;
+}
+.tamaño {
+    background-color: #FDFFA9 !important;
+}
+td {
+    border: 4px ridge #FBFFCC;
+    text-align: center; /* Alineación del texto en el centro */
+    color: #750000;
+    padding-inline: 20px;
+}
+.fondo{
+    background-image: url(../images/patas.jpg);
+    background-size: 200px;
+}

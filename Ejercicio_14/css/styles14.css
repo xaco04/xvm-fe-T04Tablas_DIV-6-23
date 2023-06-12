@@ -1,0 +1,28 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+table {
+    position: absolute;
+    width: 100%;
+    margin-bottom: 145px;
+    max-width: 750px; /* Ajusta el ancho máximo de la tabla según tus necesidades */
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Sombra inferior */
+    border: 5px ridge #F9FFAD;
+}
+
+th {
+    border: 4px ridge #F9FFAD;
+    font-weight: bold; /* Para que sea en negrita */
+    background-color: white;
+}
+
+td {
+    border: 4px ridge #F9FFAD;
+    text-align: center; /* Alineación del texto a la centro */
+    background-color: #F9FFAD;
+}
